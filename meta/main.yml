@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: hostsname
+  role_name: hostname
   author: neoloc
   description: Set the hostname and FQDN
   license: "license (BSD, MIT)"
