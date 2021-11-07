@@ -1,0 +1,9 @@
+---
+# tasks file for role
+#
+
+- name: Set the systems hostname
+  ansible.builtin.hostname:
+    name: "{{ hostname.fqdn }}"
+  notify: reboot machine
+  tags: [ hostname ]
